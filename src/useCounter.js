@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 
 export function useCounter(icount,step,name){
     var[count,setCount]=useState(icount);
